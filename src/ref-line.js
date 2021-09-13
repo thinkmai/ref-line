@@ -154,5 +154,5 @@ class RefLine {
         return Math.abs(dragValue - targetValue) <= this.options.gap
     }
 }
-
-module.exports = RefLine
+export default RefLine
+// module.exports = RefLine

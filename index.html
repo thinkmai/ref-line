@@ -23,8 +23,10 @@
 
 
 <script src="./vendors/z-Dragify.js"></script>
-<script src="./dist/ref-line.min.js"></script>
-<script>
+<!-- <script src="./dist/ref-line.min.js"></script> -->
+<!-- <script src="./src/ref-line.js"></script> -->
+<script type="module">
+    import RefLine from './src/ref-line.js'
     let boxes   = Array.from(document.querySelectorAll('.box'))
     let refLine = new RefLine()
 
